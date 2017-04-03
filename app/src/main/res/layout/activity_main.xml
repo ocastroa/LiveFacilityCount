@@ -1,0 +1,154 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    tools:context=".MainActivity"
+    android:id="@+id/main_layout"
+    android:background="#80bfff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ScrollView>
+
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="Wellness 2nd Floor"
+                android:id="@+id/button"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_alignTop="@+id/button2"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="East Gym"
+                android:id="@+id/button3"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_alignBottom="@+id/button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="Multi-Purpose Room"
+                android:id="@+id/button5"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_marginTop="56dp"
+                android:layout_below="@+id/button2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="Dance Studio"
+                android:id="@+id/button6"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_alignTop="@+id/button5"
+                android:layout_alignLeft="@+id/button"
+                android:layout_alignStart="@+id/button" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="Martial Arts Room"
+                android:id="@+id/button7"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_alignBottom="@+id/button6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="Racquet ball Courts"
+                android:id="@+id/button8"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_marginTop="46dp"
+                android:layout_below="@+id/button5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:text="Pool"
+                android:id="@+id/button9"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_alignTop="@+id/button8"
+                android:layout_alignLeft="@+id/button6"
+                android:layout_alignStart="@+id/button6" />
+
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="110dp"
+                android:text="Activities Room"
+                android:id="@+id/button10"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_alignBottom="@+id/button8"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:text=""
+                android:id="@+id/button4"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView"/>
+
+            <Button
+                android:layout_height="110dp"
+                android:text="Wellness 1st Floor"
+                android:id="@+id/button2"
+                android:background="@drawable/button_enabled"
+                android:visibility="visible"
+                android:textColor="#0073e6"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_width="112dp"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

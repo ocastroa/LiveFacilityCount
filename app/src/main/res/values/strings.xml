@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Live Facility Counts</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pool">Pool</string>
+    <string name="title_activity_wellness_first_floor">Wellness First Floor</string>
+    <string name="title_activity_wellness_second_floor">Wellness Second Floor</string>
+    <string name="title_activity_east_gym">East Gym</string>
+    <string name="title_activity_multi_purpose_room">Multi-Purpose Room</string>
+    <string name="title_activity_racquetball_courts">Racquetball Courts</string>
+    <string name="title_activity_dance_studio">Dance Studio</string>
+    <string name="title_activity_martial_arts_room">Martial Arts Room</string>
+    <string name="title_activity_activities_room">Activities Room</string>
+    <string name="title_activity_example">example</string>
+    <string name="LastUpdate">Last Update</string>
+    <string name="textView">Number of Participants</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+
+</resources>

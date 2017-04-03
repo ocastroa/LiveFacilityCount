@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.envision_lightning.livefacilitycount">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    android:launchMode="singleTop" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pool"
+            android:label="@string/title_activity_pool"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.pool" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wellness_first_floor"
+            android:label="@string/title_activity_wellness_first_floor"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.wellness_first_floor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".east_gym"
+            android:label="@string/title_activity_east_gym"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.east_gym" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".multi_purpose_room"
+            android:label="@string/title_activity_multi_purpose_room"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.multi_purpose_room" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".racquetball_courts"
+            android:label="@string/title_activity_racquetball_courts"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.racquetball_courts" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wellness_second_floor"
+            android:label="@string/title_activity_wellness_second_floor"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.wellness_second_floor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".martial_arts_room"
+            android:label="@string/title_activity_martial_arts_room"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.martial_arts_room" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities_room"
+            android:label="@string/title_activity_activities_room"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.activities_room" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".danceStudio"
+            android:label="@string/title_activity_dance_studio"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.envision_lightning.livefacilitycount.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.lightningapps.ucsclivefacilitycount.danceStudio" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about"
+            android:label="About"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+    </application>
+
+</manifest>

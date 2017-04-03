@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/note"
+        android:layout_below="@+id/aboutInfo"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#060606"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setLicense"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="11dp"
+        android:paddingLeft="11dp"
+        android:textColor="#060606"
+        android:textStyle="bold|italic"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/licenseInfo"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/setLicense"
+        android:layout_marginLeft="11dp"
+        android:paddingLeft="11dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/licenseInfoTwo"
+        android:layout_below="@+id/setLicenseTwo"
+        android:layout_marginLeft="11dp"
+        android:paddingLeft="11dp"
+        android:textSize="15dp"
+        android:layout_marginTop="2dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/aboutInfo"
+        android:paddingLeft="10dp"
+        android:textColor="#060606"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/note"
+        android:layout_alignStart="@+id/note"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/setLicenseTwo"
+        android:paddingLeft="11dp"
+        android:textSize="15dp"
+        android:textColor="#060606"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/note"
+        android:layout_alignStart="@+id/note"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    Licenses"
+        android:id="@+id/textView6"
+        android:textColor="#1e059c"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        android:layout_alignBottom="@+id/note"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_icon_two"
+        android:textSize="15dp"
+        android:layout_below="@+id/app_icon"
+        android:layout_toRightOf="@+id/licenseInfo"
+        android:layout_toEndOf="@+id/licenseInfo" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_icon"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#060606"
+        android:textSize="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/licenseInfo"
+        android:layout_toRightOf="@+id/note"
+        android:layout_toEndOf="@+id/note" />
+</RelativeLayout>
